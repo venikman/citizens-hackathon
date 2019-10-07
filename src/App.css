@@ -1,13 +1,50 @@
 .App {
   text-align: center;
 }
-
+.yes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+#main {
+  background-color: rgb(0, 148, 95);
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
 .App-logo {
   height: 40vmin;
 }
+img {
+  align-self: flex-start;
+}
+.get-loan {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+.get-loan > * {
+  width: 350px;
+}
+.statistics {
+  display: flex;
+  justify-content: space-between;
+}
+.get-loan .labeled, .get-loan .dropdown, .get-loan .button {
+  margin-top: 16px;
+}
+
+ul {
+  display: flex;
+  background-color: #e8e8e8;
+}
+li {
+  margin-left: 2rem;
+  list-style: none;
+}
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
